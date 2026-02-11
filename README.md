@@ -5,7 +5,9 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+
 A robust and efficient desktop application that leverages **Computer Vision** and **Machine Learning** to automate the attendance process. This system replaces traditional manual methods with a contactless, secure, and fast face recognition solution.
+
 
 ---
 
@@ -34,19 +36,27 @@ A robust and efficient desktop application that leverages **Computer Vision** an
 
 ### 1. Main Dashboard & Real-time Tracking
 The system detects the face, matches it with the trained model, and marks attendance instantly.
-![Realtime Tracking](image/04_Realtime_Face_Recognition.jpg)
+
+<br>
+<img src="image/04_Realtime_Face_Recognition.jpg" width="300">
 
 ### 2. New User Registration
 Simple interface to capture dataset images for new employees/students.
-![Registration](image/02_User_Registration_Interface.jpg)
+
+<br>
+<img src="image/02_User_Registration_Interface.jpg" width="300">
 
 ### 3. Admin Security Setup
 First-time setup requires creating a secure password for the admin panel.
-![Admin Setup](image/01_Admin_Security_Setup.jpg)
+
+<br>
+<img src="image/01_Admin_Security_Setup.jpg" width="300">
 
 ### 4. Training Confirmation
 After capturing images, the model trains on the dataset to ensure high accuracy.
-![Training](image/03_Registration_Done.jpg)
+
+<br>
+<img src="image/03_Registration_Done.jpg" width="300">
 
 ---
 
@@ -54,8 +64,8 @@ After capturing images, the model trains on the dataset to ensure high accuracy.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/alargam/Smart-Face-Recognition-Attendance-System.git](https://github.com/alargam/Smart-Face-Recognition-Attendance-System.git)
-    cd Smart-Face-Recognition-Attendance-System
+    git clone https://github.com/alargam/Smart_Face_Recognition_Attendance_System.git
+    cd Smart_Face_Recognition_Attendance_System
     ```
 
 2.  **Install Dependencies:**
@@ -85,20 +95,19 @@ After capturing images, the model trains on the dataset to ensure high accuracy.
     * Press `q` to exit the camera window.
 3.  **Check Reports:**
     * Go to the `Attendance` folder to find the daily CSV file (e.g., `Attendance_25-10-2025.csv`).
-
 ---
 
 ## 📂 Project Structure
 
-├── Attendance/           # Stores daily attendance CSV files
-├── StudentDetails/       # Stores the list of registered users
-├── TrainingImage/        # Raw dataset images (captured faces)
-├── TrainingImageLabel/   # Saved trained model (Trainner.yml) & Password
-├── haarcascade_...xml    # Pre-trained face detection model
-├── main.py               # Main source code
-├── README.md             # Project Documentation
-├── requirements.txt      # List of dependencies
-└── image/                # Contains project images
+* **Attendance/**: Stores daily attendance CSV files.
+* **StudentDetails/**: Stores the list of registered users and their IDs.
+* **TrainingImage/**: Raw dataset images (captured faces during registration).
+* **TrainingImageLabel/**: Saved trained model (Trainner.yml) and encrypted password.
+* **image/**: Contains project screenshots and system documentation images.
+* **haarcascade_frontalface_default.xml**: Pre-trained XML model for face detection.
+* **main.py**: The primary source code and GUI logic.
+* **README.md**: Comprehensive project documentation.
+* **requirements.txt**: List of necessary Python libraries for installation.
 
 ---
 
