@@ -1,13 +1,6 @@
 # 📸 Smart Face Recognition Attendance System
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-
 A robust and efficient desktop application that leverages **Computer Vision** and **Machine Learning** to automate the attendance process. This system replaces traditional manual methods with a contactless, secure, and fast face recognition solution.
-
 
 ---
 
@@ -120,3 +113,8 @@ After capturing images, the model trains on the dataset to ensure high accuracy.
 ---
 
 *This project is open-source and available under the MIT License.*
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
