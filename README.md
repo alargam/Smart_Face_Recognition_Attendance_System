@@ -34,19 +34,19 @@ A robust and efficient desktop application that leverages **Computer Vision** an
 
 ### 1. Main Dashboard & Real-time Tracking
 The system detects the face, matches it with the trained model, and marks attendance instantly.
-![Realtime Tracking](04_Realtime_Face_Recognition.jpg)
+![Realtime Tracking](image/04_Realtime_Face_Recognition.jpg)
 
 ### 2. New User Registration
 Simple interface to capture dataset images for new employees/students.
-![Registration](02_User_Registration_Interface.jpg)
+![Registration](image/02_User_Registration_Interface.jpg)
 
 ### 3. Admin Security Setup
 First-time setup requires creating a secure password for the admin panel.
-![Admin Setup](01_Admin_Security_Setup.jpg)
+![Admin Setup](image/01_Admin_Security_Setup.jpg)
 
 ### 4. Training Confirmation
 After capturing images, the model trains on the dataset to ensure high accuracy.
-![Training](03_Model_Training_Confirmation.jpg)
+![Training](image/03_Registration_Done.jpg)
 
 ---
 
